@@ -1,0 +1,129 @@
+/* WPForms fixes */
+/* Initial field looks */
+.wpforms-container input[type=date],
+.wpforms-container input[type=datetime],
+.wpforms-container input[type=datetime-local],
+.wpforms-container input[type=email],
+.wpforms-container input[type=month],
+.wpforms-container input[type=number],
+.wpforms-container input[type=password],
+.wpforms-container input[type=range],
+.wpforms-container input[type=search],
+.wpforms-container input[type=tel],
+.wpforms-container input[type=text],
+.wpforms-container input[type=time],
+.wpforms-container input[type=url],
+.wpforms-container input[type=week],
+.wpforms-container select,
+.wpforms-container textarea {
+    background: #fff;
+    border-width: 0 0 1px 0;
+    color: var(--ast-global-color-2);
+    opacity: 0.5;
+}
+/* On focus */
+.wpforms-container input:focus,
+.wpforms-container select:focus,
+.wpforms-container textarea:focus {
+    outline: none;
+    opacity: 1;
+    border-color: var(--ast-global-color-0);
+}
+/* Don't allow resizing the Message box */
+.wpforms-container textarea {
+    resize: none;
+}
+/* Message box fixed height */
+.wpforms-container .wpforms-field-textarea textarea.wpforms-field-medium {
+    height: 136px;
+}
+/* Button size & font size */
+.wpforms-container button {
+    padding: 15px 34px;
+    font-size: 15px;
+}
+
+.ast-builder-grid-row-3-equal .ast-builder-grid-row {
+    grid-template-columns: 3fr 1fr 3fr;
+}
+
+/*____Header____ */
+
+#header{
+	position: fixed;
+	top: 40px;
+	width: 100vw
+}
+.ekit-wid-con .ekit-sidebar-group.ekit_isActive .ekit_sidebar-widget-container {
+	overflow: hidden;
+    height: 100vh;
+  background: linear-gradient(45deg, blue, purple,#6ACBE0, blue,#5A4199 ,green,blue);
+	background-size: 600% 600%;
+  animation: gradientAnimation 8s ease infinite;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+	
+/*---Nav_Menu_Hover---*/
+	   #canvas .elementor-heading-title {
+			 font-size:42px !important;
+            position: relative;
+            display: inline-block;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 0 0 15px #8e54e9;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            margin-right: 30px;
+            padding: 10px;
+            text-decoration: none;
+        }
+    
+        #canvas .elementor-heading-title::before,
+        #canvas .elementor-heading-title::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+    
+        #canvas .elementor-heading-title::before {
+            top: 0;
+            left: 0;
+        }
+    
+        #canvas .elementor-heading-title::after {
+            bottom: 0;
+            right: 0;
+        }
+    
+        #canvas .elementor-heading-title:hover::before {
+            width: 97%;
+            height: 92%;
+            border-top: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+        }
+    
+        #canvas .elementor-heading-title:hover::after {
+            width: 97%;
+            height: 92%;
+            border-left: 2px solid #fff;
+            border-right: 2px solid #fff;
+        }
+/*____Home Page____ */
+
+/*____About Page____ */
+.page_111{
+	background-attachment:fixed !important;
+}
+/*____Services Page____ */
+.ser_sec{
+	background-attachment: fixed !important;
+}
