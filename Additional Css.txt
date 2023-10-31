@@ -68,10 +68,10 @@
   100% {
     background-position: 100% 50%;
   }
-	
+}
 /*---Nav_Menu_Hover---*/
 	   #canvas .elementor-heading-title {
-			 font-size:42px !important;
+			 font-size:20px !important;
             position: relative;
             display: inline-block;
             text-transform: uppercase;
@@ -91,7 +91,7 @@
             width: 0;
             height: 0;
             border: 2px solid transparent;
-            transition: all 0.3s ease;
+            transition: all 0.4s ease;
         }
     
         #canvas .elementor-heading-title::before {
@@ -105,15 +105,15 @@
         }
     
         #canvas .elementor-heading-title:hover::before {
-            width: 97%;
-            height: 92%;
+            width: 100%;
+            height: 100%;
             border-top: 2px solid #fff;
             border-bottom: 2px solid #fff;
         }
     
         #canvas .elementor-heading-title:hover::after {
-            width: 97%;
-            height: 92%;
+            width: 100%;
+            height: 100%;
             border-left: 2px solid #fff;
             border-right: 2px solid #fff;
         }
