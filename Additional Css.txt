@@ -143,3 +143,25 @@
 #particles-22{
 	background-attachment:fixed;
 }
+
+/*____Contact Page____ */
+.premium-blog-filter ul.premium-blog-filters-container, .premium-img-gallery-filter ul.premium-gallery-cats-container {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.premium-blog-filter .premium-blog-filters-container li, .premium-img-gallery-filter .premium-gallery-cats-container li:hover {
+   
+    scale: 1.1;
+}
+.premium-blog-filter .premium-blog-filters-container li, .premium-img-gallery-filter .premium-gallery-cats-container li:hover a,
+.premium-blog-filter .premium-blog-filters-container li, .premium-img-gallery-filter .premium-gallery-cats-container li:hover a.active{
+	background-color:white !important;
+	color: blue !important;
+	border-color: blue !important;
+}
+.premium-blog-filter .premium-blog-filters-container li, .premium-img-gallery-filter .premium-gallery-cats-container li a.active{
+	border-color: blue !important;
+	background-color:white !important;
+	color: blue !important;
+}
